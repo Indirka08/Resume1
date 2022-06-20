@@ -1,0 +1,57 @@
+html {
+  font-family: Roboto, sans-serif;
+  background-image: url(../images/images2.webp);
+}
+* {
+  color: black;
+}
+
+h1 {
+  color: white;
+  margin-bottom: 0, 25em;
+}
+
+h2 {
+  color: black;
+  font-size: 1em;
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+h3 {
+  color: aquamarine;
+}
+a {
+  color: blue;
+}
+section {
+  margin-bottom: 3em;
+}
+.cv {
+  max-width: 900px;
+  margin: 0 auto;
+}
+.contacts {
+  margin-bottom: 2em;
+}
+
+.contact {
+  display: flex;
+  min-width: 90px;
+}
+.experience {
+  display: flex;
+  margin-bottom: 2em;
+  min-width: 185px;
+  margin-bottom: 1em;
+  font-weight: bold;
+  background-image: url(../images/background.webp);
+}
+
+@media all and (max-width: 575px) {
+  .experience {
+    display: block;
+  }
+}
+.experience__company {
+  color: crimson;
+}
